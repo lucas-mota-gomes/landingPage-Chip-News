@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeflex/primeflex.css";
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.chipcolor{
+    color: #006cac;
+}
+
+.button-chip{
+    background-color: #fff212 !important;
+    color: #006cac !important;
+    border: none !important;
+}
+
+*:not(.pi){
+    font-family: "Rubik", Sans-serif !important;
+}
